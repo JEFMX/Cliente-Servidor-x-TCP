@@ -7,7 +7,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #define MAX 1000
-#define PORT 22
+#define PORT 22 //puerto de SSH en realidad puede ser cualquier puerto
 #define SA struct sockaddr
    
 // Función encargada de la interacción entre el cliente y servidor
